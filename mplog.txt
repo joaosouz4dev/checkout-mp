@@ -1,0 +1,165 @@
+Array
+(
+    [acquirer] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [ip_address] => 191.5.40.250
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => others
+                            [description] => 
+                            [id] => 7
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => teste
+                            [unit_price] => 5.50
+                        )
+
+                )
+
+        )
+
+    [authorization_code] => 431423
+    [binary_mode] => 
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+            [cardholder] => Array
+                (
+                    [identification] => Array
+                        (
+                            [number] => 11769906673
+                            [type] => CPF
+                        )
+
+                    [name] => JOAO VICTOR ABREU NEVES DE SOUZA
+                )
+
+            [date_created] => 2019-08-07T13:50:22.000-04:00
+            [date_last_updated] => 2019-08-07T13:50:22.000-04:00
+            [expiration_month] => 11
+            [expiration_year] => 2026
+            [first_six_digits] => 550209
+            [id] => 
+            [last_four_digits] => 4755
+        )
+
+    [collector_id] => 432089967
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => BRL
+    [date_approved] => 2019-08-07T13:50:25.000-04:00
+    [date_created] => 2019-08-07T13:50:22.000-04:00
+    [date_last_updated] => 2019-08-07T17:52:11.000-04:00
+    [date_of_expiration] => 
+    [deduction_schema] => 
+    [description] => teste - João
+    [differential_pricing_id] => 
+    [external_reference] => D273CB2BB0ADE1F
+    [fee_details] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 0.19
+                    [fee_payer] => collector
+                    [type] => mercadopago_fee
+                )
+
+        )
+
+    [id] => 5050666872
+    [installments] => 1
+    [issuer_id] => 24
+    [live_mode] => 1
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+        )
+
+    [money_release_date] => 2019-08-21T13:50:25.000-04:00
+    [money_release_schema] => 
+    [notification_url] => https://seguro.babyshop.club/retorno.php?ucod=1
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+        )
+
+    [payer] => Array
+        (
+            [email] => 
+            [entity_type] => 
+            [first_name] => 
+            [id] => 371418675
+            [identification] => Array
+                (
+                )
+
+            [last_name] => 
+            [operator_id] => 
+            [phone] => Array
+                (
+                )
+
+            [type] => guest
+        )
+
+    [payment_method_id] => master
+    [payment_type_id] => credit_card
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => 5.5
+                    [date_created] => 2019-08-07T17:52:05.000-04:00
+                    [id] => 423305144
+                    [metadata] => Array
+                        (
+                        )
+
+                    [payment_id] => 5050666872
+                    [source] => Array
+                        (
+                            [id] => 432089967
+                            [name] => Wesly Ewerson De Medeiros .-
+                            [type] => collector
+                        )
+
+                    [status] => approved
+                    [unique_sequence_number] => 
+                )
+
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => EC*MEGAOFERTAS
+    [status] => refunded
+    [status_detail] => refunded
+    [store_id] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 5.5
+    [transaction_amount_refunded] => 5.5
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => 
+            [financial_institution] => 
+            [installment_amount] => 5.5
+            [net_received_amount] => 5.31
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 
+            [total_paid_amount] => 5.5
+        )
+
+)

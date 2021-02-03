@@ -1,0 +1,127 @@
+Array
+(
+    [acquirer] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [items] => Array
+                (
+                    [0] => Array
+                        (
+                            [category_id] => others
+                            [description] => 
+                            [id] => 195
+                            [picture_url] => 
+                            [quantity] => 1
+                            [title] => teste
+                            [unit_price] => 121.00
+                        )
+
+                )
+
+        )
+
+    [authorization_code] => 
+    [barcode] => Array
+        (
+            [content] => 23797797000000121003380260475739058900633330
+            [height] => 
+            [type] => 
+            [width] => 
+        )
+
+    [binary_mode] => 
+    [call_for_authorize_id] => 
+    [captured] => 1
+    [card] => Array
+        (
+        )
+
+    [collector_id] => 135577150
+    [counter_currency] => 
+    [coupon_amount] => 0
+    [currency_id] => BRL
+    [date_approved] => 
+    [date_created] => 2019-07-29T18:48:54.000-04:00
+    [date_last_updated] => 2019-07-29T18:48:54.000-04:00
+    [date_of_expiration] => 2019-08-03T15:48:54.000-04:00
+    [deduction_schema] => 
+    [description] => Boleto - teste - RAFA
+    [differential_pricing_id] => 
+    [external_reference] => C0AC1008973BF4F
+    [fee_details] => Array
+        (
+        )
+
+    [id] => 5017765012
+    [installments] => 1
+    [issuer_id] => 
+    [live_mode] => 1
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [metadata] => Array
+        (
+        )
+
+    [money_release_date] => 
+    [money_release_schema] => 
+    [notification_url] => http://dev.babyshop.club/retorno.php?ucod=1
+    [operation_type] => regular_payment
+    [order] => Array
+        (
+        )
+
+    [payer] => Array
+        (
+            [email] => 
+            [entity_type] => 
+            [first_name] => 
+            [id] => 164168889
+            [identification] => Array
+                (
+                )
+
+            [last_name] => 
+            [operator_id] => 
+            [phone] => Array
+                (
+                )
+
+            [type] => guest
+        )
+
+    [payment_method_id] => bolbradesco
+    [payment_type_id] => ticket
+    [pos_id] => 
+    [processing_mode] => aggregator
+    [refunds] => Array
+        (
+        )
+
+    [shipping_amount] => 0
+    [sponsor_id] => 
+    [statement_descriptor] => 
+    [status] => pending
+    [status_detail] => pending_waiting_payment
+    [store_id] => 
+    [taxes_amount] => 0
+    [transaction_amount] => 121
+    [transaction_amount_refunded] => 0
+    [transaction_details] => Array
+        (
+            [acquirer_reference] => 
+            [external_resource_url] => https://www.mercadopago.com/mlb/payments/ticket/helper?payment_id=5017765012&payment_method_reference_id=4757390589&caller_id=164168889&hash=643e8d08-8341-439e-886b-1318a38e2602
+            [financial_institution] => 
+            [installment_amount] => 0
+            [net_received_amount] => 0
+            [overpaid_amount] => 0
+            [payable_deferral_period] => 
+            [payment_method_reference_id] => 4757390589
+            [total_paid_amount] => 121
+            [verification_code] => 4757390589
+        )
+
+)

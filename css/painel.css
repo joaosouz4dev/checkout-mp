@@ -1,0 +1,142 @@
+body {
+    background: #EFF1F3;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #565a5c;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold
+}
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing:antialiased;
+    color:#333
+}
+
+td,
+th {
+    font-size: 14px;
+}
+
+.login-form {
+	width: 340px;
+	margin: 50px auto;
+}
+
+.login-form form {
+	margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.painel .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.painel .btn-group .btn {
+    flex: 1;
+    width: 100%;
+    margin: 0 !important;
+    border-radius: 1px!important;
+}
+.painel {
+    padding: 24px 9px;
+    margin-top: 25px;
+    border-radius: 4px;
+    box-shadow: 0 1px 13px rgba(131,132,137,.15);
+    border: 1px solid #c7d0d4;
+    background: #f1f1f1;
+}
+
+.painel-titulo {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    border-bottom: 1px #f1f1f1 solid;
+    padding-bottom: 20px;
+}
+.painel-titulo span {
+    float: right;
+}
+.painel-titulo span a {
+    min-height: 28px;
+    max-height: 28px;
+    line-height: 14px;
+}
+.painel-titulo span a:last-child {
+    margin-left: 15px
+}
+.painel-titulo span .btn-primary {
+    background-color: #fbfbfc;
+    color: #337ab7;
+}
+.painel-titulo span .btn-primary {
+    background-color: #fbfbfc;
+    color: #337ab7;
+}
+.painel-botoes {
+    margin-bottom: 15px;
+}
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.flex-form div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    flex:1
+}
+.flex-form div:last-child {
+    margin-right: 0px;
+}
+.flex-form .btn{
+    max-height: 35px;
+}
+.table-titulo {
+    font-size: 18px;
+    text-transform: uppercase;
+	margin:0;
+    padding: 10px 0;
+	display: flex;
+}
+.table-titulo span {
+    flex: 1;
+}
+.table-titulo span:last-child {
+    text-align: right;
+}
+@media only screen and (max-width: 991px) {
+    .flex-form div {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        width: 100%;
+        flex:auto
+    }
+    .painel-titulo {
+        padding-bottom: 40px;
+    }
+    .painel-titulo span {
+        line-height: 40px;
+    }
+    .table-titulo {
+        padding: 10px 10px;
+    }
+}
